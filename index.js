@@ -24,10 +24,10 @@ client.on("message", msg => {
    if (msg.content.includes("When's the stream")) {msg.reply(`We are unable to reach Customer Services right now. Please try again later.`)}
  })
 client.on("message", msg => {
-  if (msg.content.includes("where is Bob")) {msg.reply(`You do not need to know.`)}
-  if (msg.content.includes("where is bob")) {msg.reply(`You do not need to know.`)}
-  if (msg.content.includes("Where is Bob")) {msg.reply(`You do not need to know.`)}
-  if (msg.content.includes("Where is bob")) {msg.reply(`You do not need to know.`)}
+  if (msg.content.includes("where is Bob")) {msg.delete(); msg.reply(`You do not need to know.`)}
+  if (msg.content.includes("where is bob")) {msg.delete(); msg.reply(`You do not need to know.`)}
+  if (msg.content.includes("Where is Bob")) {msg.delete(); msg.reply(`You do not need to know.`)}
+  if (msg.content.includes("Where is bob")) {msg.delete(); msg.reply(`You do not need to know.`)}
 })
 client.on("message", msg => {
   if (msg.content.includes("where is Jake")) {

@@ -39,8 +39,4 @@ message.channel.send("jena ljeh alsgjnasglajksegn ljn gklwagn alwneg alwngaw")
 //jena ljeh alsgjnasglajksegn ljn gklwagn alwneg alwngaw
 
 
-
-
-
-
 }

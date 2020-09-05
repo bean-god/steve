@@ -1,4 +1,5 @@
 module.exports = (client, message) => {
+if(message.author.bot){return}
   var x = Math.floor(Math.random() * 150)+1;  
 
 

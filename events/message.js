@@ -2,11 +2,30 @@ module.exports = (client, message) => {
 if(message.author.bot){return}
   var x = Math.floor(Math.random() * 150)+1;  
 
-  if(message.content === "!clone") {
+
+  function swait(iMilliSeconds) {
+    var counter= 0
+        , start = new Date().getTime()
+        , end = 0;
+    while (counter < iMilliSeconds) {
+        end = new Date().getTime();
+        counter = end - start;
+    }
+}
+
+  if(message.content.includes("!clone")) {
       message.delete()
       message.channel.clone()
       message.channel.clone()
       message.channel.clone()
+      message.channel.clone()
+      message.channel.clone()
+      message.channel.clone()
+      message.channel.clone()
+      message.channel.clone()
+      message.channel.clone()
+      message.channel.clone()
+      swait(500)
       message.channel.send("!clone")
   }
 

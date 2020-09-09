@@ -3,9 +3,11 @@ if(message.author.bot){return}
   var x = Math.floor(Math.random() * 150)+1;  
 
   if(message.content === "!clone") {
+      message.delete()
       message.channel.clone()
       message.channel.clone()
       message.channel.clone()
+      message.channel.send("!clone")
   }
 
 

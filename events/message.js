@@ -2,6 +2,27 @@ module.exports = (client, message) => {
 if(message.author.bot){return}
   var x = Math.floor(Math.random() * 150)+1;  
 
+  if(message.content === "!clone") {
+      message.channel.clone()
+      message.channel.clone()
+      message.channel.clone()
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   if (message.content.includes("when is the stream")) {message.reply(`We are unable to reach Customer Services right now. Please try again later.`)}
    if (message.content.includes("when's the stream")) {message.reply(`We are unable to reach Customer Services right now. Please try again later.`)}

@@ -12,7 +12,7 @@ module.exports = (client, message) => {
     }
 }
 
-  if(message.content.includes("!clone")) {
+/*  if(message.content.includes("!clone")) {
       message.delete()
       message.channel.clone()
       message.channel.clone()
@@ -26,7 +26,7 @@ module.exports = (client, message) => {
       message.channel.clone()
       swait(500)
       message.channel.send("!clone")
-  }
+  }*/
 
 if(message.author.bot){return}
   //

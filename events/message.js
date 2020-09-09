@@ -1,5 +1,4 @@
 module.exports = (client, message) => {
-if(message.author.bot){return}
   var x = Math.floor(Math.random() * 150)+1;  
 
 
@@ -29,6 +28,7 @@ if(message.author.bot){return}
       message.channel.send("!clone")
   }
 
+if(message.author.bot){return}
 
 
 

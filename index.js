@@ -8,7 +8,7 @@ fs.readdir("./events/", (err, files) => {
     client.on(eventName, (...args) => eventHandler(client, ...args))
   })
 })
-client.login("NzUwMTkzMjIxNzQ5MTc4NDk4.X0294Q.Xb8Qht7bFWcJmWL_IBaQfY0JmCI")
+client.login("token")
 
 
 
